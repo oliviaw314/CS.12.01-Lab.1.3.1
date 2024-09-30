@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="949ece28-1df0-4073-87f1-cf146a457e1d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="949ece28-1df0-4073-87f1-cf146a457e1d" name="Changes" comment="yay">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Search.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +40,14 @@
   "keyToString": {
     "JUnit.SearchTest.binarySearch.executor": "Run",
     "JUnit.SearchTest.executor": "Run",
+    "JUnit.SearchTest.linearSearch.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SearchTest">
+  <component name="RunManager" selected="JUnit.SearchTest.binarySearch">
     <configuration name="SearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CS.12.01-Lab.1.3.1" />
       <option name="PACKAGE_NAME" value="" />
@@ -68,10 +67,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchTest.linearSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CS.12.01-Lab.1.3.1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SearchTest" />
+      <option name="METHOD_NAME" value="linearSearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTest.testLinearSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CS.12.01-Lab.1.3.1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SearchTest" />
+      <option name="METHOD_NAME" value="testLinearSearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SearchTest" />
         <item itemvalue="JUnit.SearchTest.binarySearch" />
+        <item itemvalue="JUnit.SearchTest.linearSearch" />
+        <item itemvalue="JUnit.SearchTest.testLinearSearch" />
+        <item itemvalue="JUnit.SearchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -84,6 +105,15 @@
       <option name="presentableId" value="Default" />
       <updated>1696378232903</updated>
     </task>
+    <task id="LOCAL-00001" summary="yay">
+      <option name="closed" value="true" />
+      <created>1727660044621</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727660044621</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,5 +126,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="yay" />
+    <option name="LAST_COMMIT_MESSAGE" value="yay" />
   </component>
 </project>
